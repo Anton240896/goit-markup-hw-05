@@ -49,7 +49,16 @@
     <section class="section_main_page_title">
       <div class="container-section-first ">
         <h1 class="h-section-first">Effective Solutions for Your Business</h1>
-        <button class="btn_main_page" type="button">Order Service</button>
+        <button class="btn_main_page" data-modal-open type="button">Order Service</button>
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+              delectus ut, nulla quisquam nobis
+              provident aspernatur, consequatur, quibusdam sunt ducimus repellendus! Molestiae incidunt aut cum quo
+              libero omnis soluta harum.</p>
+            <button data-modal-close>Close</button>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -404,6 +413,7 @@
       </div>
     </div>
   </footer>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>

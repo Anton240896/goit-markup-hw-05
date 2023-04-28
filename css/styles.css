@@ -226,10 +226,9 @@ address {
     cursor: pointer;
     color: #ffffff;
     margin: 0 auto;
-
-
 }
 
+.backdrop .is-hidden {}
 
 .btn_main_page:hover {
     background-color: #404BBF;
