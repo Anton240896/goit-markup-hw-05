@@ -719,13 +719,11 @@ button:focus {
 
 /*list-pictures*/
 .list-portfolio {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-
-
-
 
 }
 
@@ -735,8 +733,35 @@ button:focus {
 
 }
 
+
+
 /*a*/
 .portfolio-link {
+    display: block;
+}
+
+.portfolio-text {
+    position: absolute;
+    height: 40px;
+    color: #F4F4FD;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    display: none;
+}
+
+.portfolio-list:hover .portfolio-text {
+    display: flex;
+    flex-wrap: wrap;
+    background: #4D5AE5;
+    width: 360px;
+    height: 300px;
+    top: 0;
+    mix-blend-mode: normal;
+    column-gap: 24px;
+    row-gap: 48px;
     display: block;
 }
 
