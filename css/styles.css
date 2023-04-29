@@ -49,6 +49,10 @@ img {
     display: block;
 }
 
+svg {
+    fill: currentColor;
+}
+
 /*********** HEADER ***********/
 /*header main-page*/
 .header-main-page {
@@ -224,19 +228,29 @@ address {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    color: #ffffff;
+    color: #FFFFFF;
     margin: 0 auto;
 }
 
 
 .close-btn {
     position: absolute;
-    right: 24px;
     top: 24px;
-    background: #E7E9FC;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    background-color: #E7E9FC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.close-btn:hover:focus {
+    background-color: #404BBF;
+    color: white;
 }
 
 .backdrop {
@@ -265,13 +279,10 @@ address {
 
 }
 
-.btn_main_page:hover {
+.btn_main_page:hover:focus {
     background-color: #404BBF;
 }
 
-.btn_main_page:focus {
-    background-color: #404bbf;
-}
 
 /***************** SECTION 2 ******************/
 .section_main_page-second {
