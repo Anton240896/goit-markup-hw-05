@@ -229,17 +229,15 @@ address {
 }
 
 
-.close-btn {}
-
-.close-btn-icons {
+.close-btn {
     position: absolute;
     right: 24px;
     top: 24px;
-
+    background: #E7E9FC;
+    border-radius: 50%;
+    border: none;
 
 }
-
-
 
 .backdrop {
     position: fixed;
