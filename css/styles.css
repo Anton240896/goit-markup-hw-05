@@ -145,13 +145,27 @@ address {
     padding-top: 24px;
     padding-bottom: 24px;
     display: block;
-
 }
 
 .header_studio:hover,
 .header_studio:focus {
     color: #404bbf;
 }
+
+.header_studio::after {
+    content: "";
+    width: 100%;
+    height: 4px;
+    left: 0px;
+    top: 44px;
+    bottom: 0;
+    display: block;
+    fill: currentColor;
+    background-color: var(--section-four-404bbf);
+    border-radius: 2px;
+    margin-top: 24px;
+}
+
 
 /*address*/
 .address_contacts {
@@ -190,6 +204,7 @@ address {
     padding-top: 188px;
     padding-bottom: 188px;
     margin: 0 auto;
+
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
         url("../images/peopleoffice.jpg");
@@ -252,6 +267,8 @@ address {
     background-color: #404BBF;
     color: white;
 }
+
+
 
 .backdrop {
     position: fixed;
@@ -773,7 +790,7 @@ button:focus {
     mix-blend-mode: normal;
     column-gap: 24px;
     row-gap: 48px;
-    display: block;
+
 }
 
 .portfolio-link:hover,
