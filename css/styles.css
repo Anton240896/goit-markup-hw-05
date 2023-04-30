@@ -10,6 +10,7 @@
     --section-four-404bbf: #404bbf;
 
 
+
 }
 
 
@@ -139,7 +140,7 @@ address {
     position: relative;
     font-weight: 500;
     font-size: 16px;
-    color: #404BBF;
+    color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -148,7 +149,9 @@ address {
     display: block;
 }
 
-.portfolio ::after {
+
+
+.header_studio.link::after {
     content: '';
     position: absolute;
     left: 0;
