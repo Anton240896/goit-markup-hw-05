@@ -148,7 +148,7 @@ address {
     display: block;
 }
 
-.header_studio::after {
+.portfolio ::after {
     content: '';
     position: absolute;
     left: 0;
@@ -781,6 +781,12 @@ button:focus {
 
 }
 
+/*div*/
+.container-portfolio {
+    position: relative;
+    overflow: hidden;
+}
+
 
 /*p*/
 .portfolio-text {
@@ -800,6 +806,13 @@ button:focus {
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.portfolio-list:hover .portfolio-list:focus {
+    transform: translate(0, 0);
+}
+
+
+
 
 .portfolio-list:hover:focus {
     transform: translate(0, 0);
