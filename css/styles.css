@@ -139,13 +139,24 @@ address {
     position: relative;
     font-weight: 500;
     font-size: 16px;
-    color: var(--span_studio-color-2e2f42);
+    color: #404BBF;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
     padding-top: 24px;
     padding-bottom: 24px;
     display: block;
+}
+
+.header_studio::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404BBF;
+    border-radius: 2px;
+
 }
 
 .header_studio:hover,
