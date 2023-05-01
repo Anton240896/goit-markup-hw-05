@@ -708,11 +708,16 @@ address {
 }
 
 
-.close-btn:hover,
+.close-btn:hover {
+    background-color: #404bbf;
+    fill: #FFFFFF;
+    border: none;
+}
+
 .close-btn:focus {
     background-color: #404bbf;
+    fill: #FFFFFF;
     border: none;
-
 }
 
 .close-btn-icons {
