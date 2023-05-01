@@ -100,9 +100,14 @@ nav {
 
 
 address {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-style: normal;
 }
+
+.link-contacts {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--mail-color-434455);
+}
+
 
 /*webstudio*/
 .logo_studio {
@@ -141,7 +146,7 @@ address {
     position: relative;
     font-weight: 500;
     font-size: 16px;
-    color: #404BBF;
+    color: var(--mail-color-434455);
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -570,7 +575,7 @@ address {
 
 /*a (social) link*/
 .link-social-footer {
-    transition: var background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 100%;
     height: 100%;
     background-color: var(--header_studio-color-4d5ae5);
