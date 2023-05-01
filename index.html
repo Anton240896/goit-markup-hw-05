@@ -49,13 +49,6 @@
     <section class="section_main_page_title">
       <h1 class="h-section-first">Effective Solutions for Your Business</h1>
       <button data-modal-open class="btn_main_page" type="button">Order Service</button>
-      <div data-modal class class="backdrop" class="is-hidden">
-        <div class="modal">
-          <button data-modal-close class="close-btn"><svg class=".close-btn-icons" width="8" height="8">
-              <use href="./images/button_close.svg#icon-close"></use>
-            </svg></button>
-        </div>
-      </div>
     </section>
 
     <!----------------------------section 2----------------------------------->
@@ -424,14 +417,17 @@
       </div>
     </div>
   </footer>
-  <div data-modal class class="container-modal" class="is-hidden">
-    <div class="modal-window">
-      <button data-modal-close class="btn-modal-window"><svg class=".close-btn-icons" width="8" height="8">
-          <use href="./images/button_close.svg#icon-close"></use>
-        </svg></button>
+
+  <!----------modal-window----------------->
+  <div data-modal class="container-modal" class="is-hidden">
+    <div data-modal class="backdrop" class="is-hidden">
+      <div class="modal">
+        <button data-modal-close class="close-btn"><svg class=".close-btn-icons" width="8" height="8">
+            <use href="./images/button_close.svg#icon-close"></use>
+          </svg></button>
+      </div>
     </div>
-  </div>
-  <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
