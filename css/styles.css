@@ -722,6 +722,11 @@ address {
 
 }
 
+.close-btn:hover,
+.close-btn:focus {
+    background-color: #404BBF;
+    border: none;
+}
 
 
 .close-btn-icons {
