@@ -60,6 +60,10 @@ button:focus {
 }
 
 
+svg {
+    fill: currentColor;
+}
+
 /*********** HEADER ***********/
 /*header main-page*/
 .header-main-page {
@@ -719,13 +723,12 @@ address {
 
 
 
-.close-btn-icons {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+.close-btn-icons {}
 
 .close-btn:hover,
 .close-btn:focus {
     background-color: #404BBF;
+    color: #FFFFFF;
     border: none;
 }
 
