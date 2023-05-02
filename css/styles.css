@@ -730,8 +730,13 @@ address {
 .close-btn:focus {
     background-color: #404BBF;
     border: none;
+}
+
+.close-btn-icons:hover,
+.close-btn-icons:focus {
     fill: #FFFFFF;
 }
+
 
 
 
