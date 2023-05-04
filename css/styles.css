@@ -82,6 +82,13 @@ svg {
     fill: currentColor;
 }
 
+p,
+h1,
+h2,
+h3 {
+    margin-top: 0;
+}
+
 /*********** HEADER ***********/
 /*header main-page*/
 .header-main-page {
@@ -474,7 +481,6 @@ svg {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 32px;
 }
 
 .link-social:hover {
@@ -864,6 +870,10 @@ svg {
 
 /*div*/
 .container-portfolio {
+    position: relative;
+}
+
+.container-portfolio_card {
     position: relative;
     overflow: hidden;
 }
