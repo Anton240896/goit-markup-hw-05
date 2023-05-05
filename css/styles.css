@@ -8,9 +8,6 @@
     --button-All-f4f4fdl: #F4F4FD;
     --section-five-8e8f99: #8e8f99;
     --section-four-404bbf: #404bbf;
-
-
-
 }
 
 
@@ -19,7 +16,6 @@ body {
     font-family: "Roboto", sans-serif;
     color: var(--mail-color-434455);
     background-color: var(--background-color-main_page-ffffff);
-
 }
 
 
@@ -714,6 +710,7 @@ h3 {
     width: 24px;
     height: 24px;
     border-radius: 50%;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -728,6 +725,7 @@ h3 {
 
 .close-btn:hover,
 .close-btn:focus {
+    color: #FFFFFF;
     background-color: #404BBF;
     border: none;
 }
