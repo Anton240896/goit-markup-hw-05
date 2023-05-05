@@ -722,13 +722,10 @@ h3 {
     padding: 0;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-btn-icons {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
 
 .close-btn:hover,
 .close-btn:focus {
@@ -736,14 +733,11 @@ h3 {
     border: none;
 }
 
-
-.close-btn-icons:hover {
-    fill: #FFFFFF;
-}
-
-
+.close-btn-icons:hover,
 .close-btn-icons:focus {
     fill: #FFFFFF;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
@@ -872,16 +866,10 @@ h3 {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-list:hover .portfolio-text {
-    transform: translateY(0%);
-}
 
-.portfolio-list:focus .portfolio-text {
-    transform: translateY(0%);
-}
 
 /*a*/
-.portfolio-link:hover {
+.portfolio-link:hover .portfolio-text {
     transform: translateY(0%);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -890,7 +878,18 @@ h3 {
 
 .portfolio-link:focus .portfolio-text {
     transform: translateY(0%);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
+
+.portfolio-link:focus .portfolio-text {
+    transform: translateY(0%);
+}
+
+
+
 
 
 .container-addition {
